@@ -1,0 +1,13 @@
+package vkrot;
+
+import java.lang.Number;
+import java.util.List;
+import vkrot.DroolsBenchmark.Pojo;
+
+rule "test-rule"
+    dialect "mvel"
+    when
+        p: Pojo()
+    then
+       // do nothing
+end
